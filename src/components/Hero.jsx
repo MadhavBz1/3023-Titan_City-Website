@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Link } from 'react-router-dom';
 
 
 const Hero = ({Hero}) => {
@@ -27,31 +28,27 @@ const Hero = ({Hero}) => {
         
       </div>
 
-        
-
-
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+
+      <div className='absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
+          <div  className='green rounded-[20px] py-5 px-12 w-[250px] h-[64px] flex justify-evenly items-center flex-col' >
           </div>
         </a>
       </div>
-      <div className='flex flex-col justify-center items-center -mt-12'>
-        <p className={`text-secondary text-[13px] mt-4`}>Press to Scroll Down</p>
-      </div>
+
+      <Link className='absolute xs:bottom-7 bottom-32 w-full flex justify-center items-center' 
+      to="https://gx.games/games/s3zosx/titanquest/" target="_blank" rel="noopener noreferrer">
+          <button className={'font-black text-black lg:text-[30px] lg:leading-[19px] '}>       
+          PLAY NOW!
+        </button>
+      </Link>
+
+
+      {/* <div className='flex flex-col justify-center items-center -mt-12'>
+        <p className={`text-secondary text-[13px] mt-4`}>Press to play game</p>
+      </div> */}
     </section>
   );
 };

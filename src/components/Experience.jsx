@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { Link } from 'react-router-dom';
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -67,6 +68,8 @@ const Experience = () => {
           Mini Games
         </h2>
       </motion.div>
+
+
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
