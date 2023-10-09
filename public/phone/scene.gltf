@@ -1,0 +1,175 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        0.5694910287857056,
+        0.23418399691581726,
+        0.14090700447559357
+      ],
+      "min": [
+        -0.5694910287857056,
+        -0.23047000169754028,
+        -0.14090700447559357
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31512,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        0.9999958276748657,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9999958276748657,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2626,
+      "max": [
+        0.9602360129356384,
+        0.9809929728507996
+      ],
+      "min": [
+        0.03013000078499317,
+        0.029455000534653664
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 15744,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Alexander (https://sketchfab.com/pravdin)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/telephone-receiver-3d-icon-f69ff8c7e4a84a5e807ab3069bfbf67b",
+      "title": "Telephone Receiver (3D Icon)"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 62976,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21008,
+      "byteOffset": 62976,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63024,
+      "byteOffset": 83984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 147008,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.018704943955272953,
+          0.018704943955272953,
+          0.018704943955272953,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5489256334020393
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.5948184728622437,
+        0.8038600087165833,
+        2.340039292817638e-16,
+        0.0,
+        -0.8038600087165833,
+        0.5948184728622437,
+        4.373875645807254e-16,
+        0.0,
+        2.220446049250313e-16,
+        -4.440892098500626e-16,
+        1.0,
+        0.0,
+        0.001492926967330277,
+        -0.0011042697587981816,
+        -0.0018576234579086306,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "e13a14815f71470d80dc05f0bf0f273f.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
