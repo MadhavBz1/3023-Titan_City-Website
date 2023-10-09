@@ -34,26 +34,26 @@
 }
 
 .violet-gradient {
-  background: #314cb8;
-  background: linear-gradient(-90deg, #314cb8 0%, rgba(193,65,146,1) 100%);
+  background: #c98f38;
+  background: linear-gradient(-90deg, #794e0d 0%,  #312005 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #314cb8 0%,
-    rgba(193,65,146,1) 100%
+    #794e0d 0%,
+    #312005 100%
   );
 }
 
 .violet-text-gradient {
-  background: #c14192; /* fallback for old browsers */
+  background: #c98f38; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #c14192,
-    rgba(49,76,184,1)
+    #c98f38,
+    #794e0d
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #c14192,
-    rgba(49,76,184,1)
+    #c98f38,
+    #794e0d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
