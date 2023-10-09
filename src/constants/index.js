@@ -23,6 +23,9 @@ import {
   construction,
   testlegend,
   threejs,
+  Left,
+  Right,
+  Instruct,
 } from "../assets";
 
 import { game1 } from "../assets";
@@ -128,7 +131,7 @@ const experiences = [
   {
     title: "Gym Mini Game:",
     company_name: "Bench Press ",
-    icon: Kumon,
+    icon: Instruct,
     iconBg: "#383E56",
     date: "Spam the spacebar to lift the weight ",
     points: [
@@ -141,7 +144,7 @@ const experiences = [
   {
     title: "Green House Mini Game:",
     company_name: "Planting potatoes ",
-    icon: plasp,
+    icon: Instruct,
     iconBg: "#E6DEDD",
     date: "click where you want to plant the potatoes and let them grow",
     points: [
@@ -153,7 +156,7 @@ const experiences = [
   {
     title: "Telescope Mini Game:",
     company_name: "Looking at the stars and planets",
-    icon: Calle,
+    icon: Instruct,
     iconBg: "#383E56",
     date: "Pick the right lens to see the stars and planets",
     points: [
@@ -167,7 +170,7 @@ const experiences = [
   {
     title: "Ice Cave/Water Purification Mini Game:",
     company_name: "Digging for gold",
-    icon: Usertesting,
+    icon: Instruct,
     iconBg: "#E6DEDD",
     date: "Dig for ice and purify it to get water as well as find interesting samples",
     points: [
@@ -179,7 +182,7 @@ const experiences = [
   {
     title: "Building a Radio Mini Game:",
     company_name: "Communicating with Earth",
-    icon: MCC,
+    icon: Instruct,
     iconBg: "#383E56",
     date: "Pick the right parts to build a radio",
     points: [

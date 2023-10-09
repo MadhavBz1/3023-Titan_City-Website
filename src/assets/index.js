@@ -29,6 +29,11 @@ import Usertesting from "./company/Usertesting.png";
 import Calle from "./company/Calle.png";
 import Kumon from "./company/Kumon.png";
 import MCC from "./company/MCC.png"
+import Left from "./company/left.png";
+import Right from "./company/right.png"
+import Instruct from "./company/instrut.png"
+
+
 
 import construction from "./construction.png";
 import testlegend from "./testlegend.png";
@@ -71,4 +76,7 @@ export {
   game1,
   game2,
   game3,
+  Left,
+  Right,
+  Instruct,
 };
